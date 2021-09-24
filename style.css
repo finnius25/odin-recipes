@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -50,6 +52,20 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center ;
+    font-size: 100px;
+}
+
+.intro form {
+    font-size: 50px;
+    border: 5px black solid;
+    margin-bottom: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.intro form:hover {
+    background-color: #FCF3CF;
+    cursor: pointer;
 }
 
 .kimchi-fried-rice-hero {
@@ -108,4 +124,94 @@ nav li a {
     align-items: center;
     color: black;
     object-fit: contain;
+}
+
+/* content card section */
+
+section {
+    background-color: #eaeff1;
+  font-family: "Raleway", sans-serif;
+}
+
+section img {
+    width: 100%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+  }
+
+  .card {
+    /* Change background color */
+    background-color: white;
+  
+    /* Add border */
+    border: 1px solid #bacdd8;
+  
+    /* Add space between the border and the content */
+    padding: 8px;
+  
+    border-radius: 12px;
+  }
+
+
+/* Style div elements that have class equal to tag */
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+  
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+  }
+  
+  /* Style div elements that have class equal to name */
+  .name {
+    font-size: 24px;
+    font-weight: 600;
+  
+    margin-top: 16px;
+  }
+  
+  /* Style p element */
+  p {
+    font-size: 14px;
+    color: #7f8c9b;
+    line-height: 150%;
+  }
+  
+  /* Style button element */
+  button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+  
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;
+  
+    /* Button is inline-block element by default, it need to have block display for margin: 0 auto; to work */
+    margin: 0 auto;
+    display: block;
+  
+    /* Button is a clickable element, therefore it should have a pointer cursor */
+    cursor: pointer;
+  }
+  
+  .card__details {
+    /* Add space around the details */
+    padding: 16px 8px 8px 8px;
+  }
+
+  /* Add style when button is focused or hovered */
+button:focus,
+button:hover {
+  background-color: #0077ff;
+  color: #e0efff;
 }
