@@ -61,43 +61,52 @@ nav li a {
 
 .kfr-container {
     display: flex;
-    flex-direction: column;
     background-color: black;
     width: 100%;
-    height: 100vh;
-}
-
-.kfr-title {
-  display: flex;
-  justify-content: center;
-  min-height: 20%;
-}
-
-.kfr-title a {
- color: white;
- text-decoration: underline;
-}
-
-.kfr-title h5 {
-  font-size: 100px;
-  margin-top: 50px;
+    height: 80vh;
 }
 
 .kfr-content-container {
-  display: flex; 
-  max-width: 100%;
-  min-height: 80%;
+  width: 50%;
+  max-height: 100%;
+}
+
+.kfr-content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.kfr-content-card h5 {
+  margin: 50px;
+  font-size: 6em;
+}
+
+.kfr-content-card a {
+  color: white;
+  text-decoration: none;
 }
 
 .kfr-content-card p {
+  font-size: 3em;
   color: white;
+  margin: 50px;
+  height: auto;
 }
 
+.kfr-button {
+  font-size: 3em;
+  padding: 1em;
+  border: 2px white solid;
+  margin-top: 1.5em;
+}
 
-
-.kfr-content-card-img {
-  max-width: 400px;
-  height: 400px;
+#kfr-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
