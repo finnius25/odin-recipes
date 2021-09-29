@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+    background-color:#F8F9F9;
+
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    background-color:black;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav * {
+    display: inline;
+    font-size: 60px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.kfr-main-pic {
+    width: 100vw;
+    height: 50vh;
+}
+
+.kfr-main-pic img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.kfr-rp-container {
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.kfr-rp-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    min-width: 100vw;
+    height: 30em;
+}
+
+.kfr-rp-heading h2 {
+    font-size: 10em;
+}
+
+.kfr-rp-heading h4 {
+    font-size: 2em;
+}
+
+.kfr-rp-heading h6 {
+    font-size: 2em;
+}
+
+.kfr-rp-intro {
+    width: 100%;
+    height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 3em;
+}
