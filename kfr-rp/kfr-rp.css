@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+/* font-family: 'Roboto', sans-serif; */
 
 
 
@@ -80,10 +81,55 @@ nav li a {
     font-size: 2em;
 }
 
-.kfr-rp-intro {
+.kfr-rp-intro, 
+.kfr-rp-ing,
+.kfr-rp-inst {
     width: 100%;
     height: auto;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.kfr-rp-intro *,
+.kfr-rp-inst * {
     font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7em;
+}
+
+.kfr-rp-ing * {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7em;
+}
+
+.kfr-rp-ing h4 {
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 5em;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+.kfr-rp-ing-container {
+    display: flex;
+}
+
+.kfr-rp-ing ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5em;
+    width: 50%;
+    list-style-type: square;
+}
+
+.kfr-rp-ing img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.kfr-rp-inst p {
+    margin-top: 1.3em;
 }
